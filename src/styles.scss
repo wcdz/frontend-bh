@@ -1,0 +1,35 @@
+/* You can add global styles to this file, and also import other style files */
+@import "../node_modules/bootstrap/dist/css/bootstrap.min.css";
+@import "~bootstrap-icons/font/bootstrap-icons.css";
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    position: relative;
+    font-family: 'Roboto', sans-serif;
+}
+
+.modal {
+    .modal-header {
+        color: white;
+        background-color: #171b1d;
+    }
+
+    .modal-body {
+        font-size: 1.2em;
+        background-color: #EFEFEF;
+
+        input {
+            border-radius: 5px;
+            box-shadow: 5px black;
+        }
+    }
+
+    .modal-footer {
+        background-color: #EFEFEF;
+    }
+}
